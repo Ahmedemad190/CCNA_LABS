@@ -1,0 +1,41 @@
+GIT : VCS can handle s/w versions , which allow devs to contibute to the same project , revert changes , collaborate to create new feature 
+
+Branch : u can take a branch to modify code in project add,modify,delete , fix a bug u can create a new branch for every feature or enhancement 
+
+remote repo :  company'server where Devs pushe the code , github-gitlab 
+
+commit : after  finishing a feature fix bug ,etc like a checkpoit in ur local repo 
+
+push : upload local changes to the remote repo 
+
+pull : you pull changes from remote repo to your local 
+
+pull request : after finishing editing a code you tell others u have finish the code and ask to pull it form local to remote 
+
+
+========= important cmds =====
+	 		     repo_name
+create repo file : git init "repo_test"
+
+git status : info about files 
+
+untracked : server has no info about it u should  commit them 
+git add : put the file into staging area to be tracked 
+
+staging helps in reviewing changes you can use git diff before commiting review the changes u been made 
+
+git reset : to discard any chnages made after commit 
+
+
+git branch : print out all branches in local repo 
+
+if u got a blank space after u type git remote -v just add ur repo link :git remote add origin https://github.com/Ahmedemad190/CCNA_LABS
+
+		                                  "branch name "
+upload recent files to ur branch : git push origin master
+
+git remote -v : print out ur remote name 
+
+
+
+
