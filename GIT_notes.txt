@@ -1,3 +1,4 @@
+
 GIT : VCS can handle s/w versions , which allow devs to contibute to the same project , revert changes , collaborate to create new feature 
 
 Branch : u can take a branch to modify code in project add,modify,delete , fix a bug u can create a new branch for every feature or enhancement 
@@ -34,7 +35,8 @@ if u got a blank space after u type git remote -v just add ur repo link :git rem
 		                                  "branch name "
 upload recent files to ur branch : git push origin master
 
-git remote -v : print out ur remote name 
+git remote -v : print out ur remote name , get the locations that u r wired to 
+
 
 
 
