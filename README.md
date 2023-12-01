@@ -82,3 +82,22 @@ if u done tagging push the tag to remote
 ```
 git push origin <tag-name>
 ```
+| Command | Description |
+| --- | --- |
+| git clone <URL> | clone ur local to remote  |
+|git init <repo_name>| create a repo |
+| git status | List all new or modified files |
+| git add | command put the fiels into staging area to be tracked |
+| git commit| save your changes to the local repository. When you make changes to your project add -am for comment|
+|  git add . -A | is used to stage all changes in your working directory  |
+| git remote -v| to view remotes|
+| if u get a blank space then u need to add ur remote  |git remote add origin ___<repo_url>___ |
+| let's assume that u get an idea and u need to test it away from the original repo , so u need to create new branch with| git branch <Branch_name> |
+when u are done with ur new branch u need to merge the branches by| git merge source |
+| to switch to the branch you have created | git swtich  <Branch_name> |
+|delete a branch | git branch -d <branch_name> |
+| you need to mark a specific commit so u need a tag | git tag -a <Version-name> <commit-hash> |
+| replace the version_name with yours to list the tags avaliable in the repo |  git tag |
+|if u done tagging push the tag to remote  |  git push origin <tag-name> |
+|fetch changes  | git pull <url>|
+
